@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+}
+
+.page-wrapper {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 700px) {
+    .page-wrapper {
+        display: flex;
+    }
+}
+
+aside {
+    background-image: url("img/bg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #222;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 40px;
+}
+
+@media (min-width: 700px) {
+    aside {
+        background-image: url("img/bg.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #222;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 50%;
+        flex: 0 0 50%;
+        padding: 0;
+    }
+}
+
+h1,
+.flourish {
+    font-size: 6vw;
+    margin: 10px 0;
+    font-family: "Oxygen", sans-serif;
+    text-align: center;
+}
+
+@media (min-width: 700px) {
+
+    h1,
+    .flourish {
+        font-size: 4.5vw;
+        margin: 20px 0;
+        padding: 0 20px;
+    }
+}
+
+h1 {
+    font-size: 6.9vw;
+    mix-blend-mode: difference;
+    font-family: 'Playfair Display', serif;
+}
+
+.flourish {
+    font-weight: bold;
+}
+
+.bio {
+    margin: 0 20px;
+    text-align: center;
+    line-height: 1.5;
+    font-style: italic;
+    mix-blend-mode: difference;
+}
+
+.favicon img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1100px) {
+    .bio {
+        margin: 0 100px;
+        text-align: center;
+        line-height: 1.7;
+        font-size: 1.2em;
+        font-style: italic;
+        mix-blend-mode: difference;
+    }
+}
+
+article {
+    margin: 0;
+}
+
+@media (min-width: 700px) {
+    article {
+        flex: 0 0 50%;
+        margin-left: 50%;
+        padding-top: 30px;
+    }
+}
+
+.author {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    text-align: left;
+    letter-spacing: 1px;
+    color: black;
+    padding: 20px;
+    width: 90%;
+    margin: 20;
+    border: 1px solid black;
+}
+
+.author a {
+    color: gray;
+}
+
+.author span {
+    text-transform: capitalize;
+}
+
+.author button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 700px) {
+
+    .author {
+        padding: 20px;
+    }
+}
+
+.image img {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.text {
+    columns: 2;
+    column-width: 250px;
+    column-gap: 2em;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+
+@media (min-width: 1100px) {
+    .text {
+        padding: 0 60px;
+    }
+}
+
+footer {
+    height: 40px;
+}
+
+
+input {
+    margin: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
